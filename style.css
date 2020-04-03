@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    padding-top: 200px;
+}
+
+.app {
+    width: 336px;
+    margin: auto;
+    border: 1.5px solid #C4C4C4;
+    border-radius: 7px;
+}
+
+.head {
+    height: 27px;
+    background: #FFDC40;
+    border-radius: 7px 7px 0 0;
+}
+
+.app_name {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.input_field {
+    width: 286px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drag_n_grop {
+    margin-left: 16px;
+    width: 12px;
+    height: 12px;
+    background: url("./img/dots.png");
+}
+
+.drag_n_grop:hover {
+    background: url("./img/dots_big.png");
+    width: 16px;
+    height: 16px;
+}
+
+.delete {
+    margin-right: 16px;
+    width: 20px;
+    height: 20px;
+    background: url("./img/gray_x.png");
+}
+
+.delete:hover {
+    background: url("./img/blue_x.png");
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.item {
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    padding-top: 6px;
+}
+
+.submit {
+    width: 150px;
+    height: 42px;
+    border-radius: 30px;
+    margin: 18px auto;
+    display: flex;
+    align-items: center;
+    background-color: #9953F1;
+    color: white;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #6f42c1;
+    transition: background-color 250ms;
+}
+
+.plus {
+    border-radius: 30px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #AA68FE;
+}
+
+.submit p {
+    margin-left: 8px;
+}
+
+.for_sort {
+    margin: 13px auto;
+    overflow: hidden;
+    width: 286px;
+}
+
+.sort {
+    width: 25px;
+    height: 15px;
+    float: right;
+    margin-right: 16px;
+}
+
+.dsc {
+    background-image: url("./img/gray_dsc.png");
+}
+
+.asc {
+    background-image: url("./img/gray_asc.png");
+}
+
+.sort.dsc:hover {
+    background-image: url("./img/black_dsc.png");
+}
+
+.sort.asc:hover {
+    background-image: url("./img/black_asc.png");
+}
+
+.content {
+    width: 286px;
+
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border-radius: 7px;
+}
+
+.frame {
+    border: 1.5px solid #C4C4C4;
+}
+
+.dragging {
+    background:#FFDC40;
+}
+
+.editmode label{
+    display: none;
+}
+
+.editmode input{
+    display: block;
+}
+
+.content .text input {
+    display: none;
+}
+
+label {
+    width: 200px;
+    height: 30px;
+    padding-top: 8px;
+    border: none;
+    display: block;
+    font-size: 20px;
+}
+
