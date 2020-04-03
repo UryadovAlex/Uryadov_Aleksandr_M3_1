@@ -111,7 +111,7 @@ const addTask = () => {
                         <div class="delete delete_in_content"></div>`;
     content.appendChild(newTask);
     content.classList.add('frame');
-
+    input.value = '';
     addDragAndDropListener(newTask);
     addDeleteListener(newTask);
     addEditListener(newTask);
